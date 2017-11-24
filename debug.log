@@ -1,0 +1,6 @@
+[1106/085356.211:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Toegang geweigerd. (0x5)
+[1106/085357.055:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: De pipe is beëindigd. (0x6D)
+[1106/085404.328:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[1114/195831.480:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Toegang geweigerd. (0x5)
+[1114/195832.204:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: De pipe is beëindigd. (0x6D)
+[1114/195832.650:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled

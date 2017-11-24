@@ -1,0 +1,28 @@
+body{
+	background-color: mintcream;
+	text-align: center;
+	margin-top: 20vh;
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+form{
+	color:  #f7941d;
+	width: 400px;
+	margin: 0 auto;
+	text-align: left;
+}
+form input{
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 5px;
+}
+#submit{
+	margin-top: 20px;
+	color:  #f7941d;
+	width: 75px;
+	font-size: 18px;
+	float: right;
+	padding: 5px;
+}

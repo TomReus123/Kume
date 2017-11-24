@@ -1,0 +1,241 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+	background-color: #F44444;
+	font-size: 20px;
+	color: #fff;
+	height: 100px;
+}
+.menu ul{
+	float: right;
+	margin-right: 5%;
+	line-height: 60px;
+}
+.menu li{
+	display: inline;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 15px;
+}
+.menu ul li a:hover{
+	color: black;
+	transition: .4s;
+}
+
+#logo{
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+
+.banner{
+	height: 90vh;
+	background-image: url("banner.jpg");
+	text-align: center;
+}
+.banner h1{
+	color: #fff;
+	font-size: 50px;
+	padding-top: 35vh;
+	margin-top: 0;
+}
+#rood{
+	color: #f44444;
+}
+
+.banner span a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 40px;
+	border: 2px solid #f44444;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+}
+.banner span a:hover{
+	background-color: #fff;
+	color: #f44444;
+	border: 2px solid #fff;
+	transition: .4s;
+}
+
+.rodeStreep{
+	height: 20px;
+	background-color: #f44444;
+}
+
+.about{
+	margin-top: 20px;
+	text-align: center;
+	min-height: 100vh;
+	margin-bottom: 50px;
+}
+.about h1{
+	color: #F44444;
+	margin-top: 0;
+	padding-top: 40px;
+	font-size: 40px;
+}
+.about p{
+	font-size: 30px;
+}
+#info{
+	height: 80px;
+}
+#onderRegel{
+	font-size: 23px;
+}
+
+.boxjes{
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	/* background-color: brown; */
+	display: inline-block;
+}
+.boxjes div{
+	margin: 0 auto;
+	width: 50%;
+	float: left;
+}
+.boxjes h2{
+	display: inline-block;
+	font-size: 25px;
+	/* margin-left: 10px; */
+}
+#vinkje{
+	font-size: 50px;
+	color: green;
+}
+.boxjes p{
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.box1{
+	/* background-color: red; */
+	text-align: left;
+}
+.box2{
+	/* background-color: blue; */
+	text-align: left;
+}
+.box3{
+	text-align: left;
+	/* background-color: pink; */
+}
+.box4{
+	text-align: left;
+	/* background-color: purple; */
+}
+
+.projects{
+	background-color: #f44444;
+	color: #fff;
+	text-align: center;
+}
+#laptop{
+	position: relative;
+	height: 500px;
+	top: -70px;
+	z-index: 99;
+}
+.projects h1{
+	margin-top: -50px;
+}
+
+.photos{
+	padding-top: 50px;
+	height: 450px;
+	margin: 0 auto;
+	width: 100%;
+}
+.photos div{
+	background-color: blue;
+}
+.photos div img{
+	width: 33.3%;
+	float: left;
+}
+.projectImg{
+	filter: grayscale(100%);
+}
+.projectImg:hover{
+	filter: grayscale(0%);
+	transition: .5s;
+}
+
+.contact{
+	height: 100vh;
+	text-align: center;
+	margin-top: 50px;
+}
+.contact h1{
+	color: #f44444;
+}
+.contactgegevens p{
+	margin-left: 20px;
+	display: inline-block;
+}
+.contactgegevens{
+	float: left;
+	text-align: left;
+	margin-left: 20%;
+	display: inline-block;
+}
+
+.contactform{
+	width: 100%;
+}
+
+#formNaam{
+	width: 50%;
+	float: left;
+}
+#formEmail{
+	width: 47%;
+}
+#formBericht{
+	padding-top: 5px;
+	width: 97.5%;
+	height: 50px;
+}
+#formSubmit{
+	width: 100%;
+}
+
+#terugKnop{
+	display: none;
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	left: 0;
+	margin-left: 20px;
+	padding-top: -15px;
+	overflow: hidden;
+	border-bottom: 15px solid rgba(0,0,0,0.05);
+	margin-bottom: 20px;
+	font-size: 60px;
+	cursor: pointer;
+}
+#terugKnop:hover{
+	background-color: black;
+	border-color: black;
+	color: #f44444;
+	transition: .4s;
+}

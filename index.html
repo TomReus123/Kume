@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kume</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="menu" id="menu">
+		<a href="#menu"><img src="logo.png" id="logo" alt="logo"></a>
+		<ul>
+			<li><span id="menuScrollAbout"><a href="#about">ONS TEAM</a></span></li>
+			<li><span id="menuScrollProjects"><a href="#projects">PROJECTEN</a></span></li>
+			<li><span id="menuScrollContact"><a href="#contact">CONTACT</a></span></li>
+			<li><a href="solliciteer.pdf">SOLLICITEER</a></li>
+		</ul>
+	</div>
+	<div class="banner">
+		<h1>Creatieve <span id="rood">BACKEND</span> &amp; <br><span id="rood">FRONTEND</span> Developers</h1>
+		<span id="scrollKnopSpan"><a id="scrollKnop">Huur ons</a></span> 
+	</div>
+	<div class="rodeStreep">
+	
+	</div>
+	<div class="about" id="about">
+		<h1>ONS TEAM</h1>
+		<img src="info.jpg" id="info" alt="infoTeken">
+		<p>Ons team bestaat uit 4 harde werkers <br><span id="onderRegel">2 mediadevelopers en 2 mediavormgevers</span></p>
+		<div class="boxjes">
+			<div class="box1">
+				<i class="fa fa-check" id="vinkje"></i><h2>Goed Web Design</h2>
+				<p>Een goed webdesign is het enigste dat wij ons kunnen veroorloven. Dit nemen wij ook serieus, want een goed webdesign is het halve werk!</p>
+			</div>
+			<div class="box2">
+				<i class="fa fa-check" id="vinkje"></i><h2>Thinking outside the box</h2>
+				<p>U kunt er op vertrouwen dat onze vormgevers altijd met de meest originele en creatieve designs komen die perfect matchen bij uw huisstijl en product.</p>
+			</div>
+			<div class="box3">
+				<i class="fa fa-check" id="vinkje"></i><h2>Teamwork</h2>
+				<p>Als een groep van 4 communiceren wij altijd zoveel mogelijk met elkaar en de klant. Dankzij ons uitstekende teamwork weet iedereen altijd wat er gedaan is en nog gedaan moet worden.</p>
+			</div>
+			<div class="box4">
+				<i class="fa fa-check" id="vinkje"></i><h2>Professioneel</h2>
+				<p>Als team gaan wij professioneel te werk. Door onze goede communicatie zorgen wij ervoor dat de klant op tijd een goed kwaliteit product opgeleverd krijgt.</p>
+			</div>
+		</div>
+	</div>
+	<div class="projects" id="projects">
+		<img src="laptop.jpg" alt="laptop" id="laptop">
+		<h1>ONZE PROJECTEN</h1>
+		<div class="photos">
+			<div class="photo1">
+				<a href="http://19830.hosts.ma-cloud.nl/bewijzenmap3/periode1/Kume/index.php?action=lucas"><img src="img/Lucas1.png" class="projectImg" alt="foto"></a>
+			</div>
+			<div class="photo2">
+				<a href="http://19830.hosts.ma-cloud.nl/bewijzenmap3/periode1/Kume/index.php?action=tom"><img src="img/Tom1.png" class="projectImg" alt="foto"></a>
+			</div>
+			<div class="photo3">
+				<a href="http://19830.hosts.ma-cloud.nl/bewijzenmap3/periode1/Kume/index.php?action=Koen"><img src="img/Koen1.png" class="projectImg" alt="foto"></a>
+			</div>
+			<div class="photo4">
+				<img src="deadpool.jpg" class="projectImg" alt="foto">
+			</div>
+			<div class="photo5">
+				<img src="ted.jpg" class="projectImg" alt="foto">
+			</div>
+			<div class="photo6">
+				<img src="pencils.jpg" class="projectImg" alt="foto">
+			</div>
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<h1>CONTACT</h1>
+		<div class="contactgegevens">
+			<h3>Contact gegevens:</h3>
+			<i class="fa fa-envelope" id="contactPlaatje"></i><p>19830@ma-web.nl</p><br>
+			<i class="fa fa-phone" id="contactPlaatje"></i><p>06-20692773</p><br>
+			<i class="fa fa-map-marker" id="contactPlaatje"></i><p>Contactweg 36, 1014 AN Amsterdam</p>
+			<form class="contactform">
+				<h4>Neem contact met ons op:</h4>
+				<input type="text" id="formName" name="naam" placeholder="Naam">
+				<input type="email" id="formEmail" name="email" placeholder="E-mail"><br>
+				<input type="text" id="formBericht" name="message" placeholder="Uw bericht...">
+				<input type="submit" id="formSubmit" value="Verzend">
+			</form>
+		</div>
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBCtptDHRgHp7eimBhK7x_65HEMwyH2dfY'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;margin-left:40px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/de'>google maps in pagina laden</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=59e60382e90beddc9561a56e534007663e03451e'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(52.3911279,4.856993399999965),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.3911279,4.856993399999965)});infowindow = new google.maps.InfoWindow({content:'<strong>Kume</strong><br>Contactweg 36<br>1014 An Amsterdam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	</div>
+	<span><a id="terugKnop">&#8593;</a></span>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script>
+		$(window).scroll(function(){ 
+			if($(this).scrollTop() > 920){
+				$("#terugKnop").fadeIn();
+			} 
+			else{ $("#terugKnop").fadeOut();} 
+		});
+	
+		$("#scrollKnop").click(function(){
+			$("html, body").animate({
+				scrollTop: $("#contact").offset().top
+			}, 2000);
+		});
+		
+		$("#terugKnop").click(function(){
+			$("html, body").animate({
+				scrollTop: 0
+			}, 2000);
+		});
+		
+		$("#menuScrollAbout").click(function(){
+			$("html, body").animate({
+				scrollTop: $("#about").offset().top
+			}, 1000);
+		});
+		
+		$("#menuScrollContact").click(function(){
+			$("html, body").animate({
+				scrollTop: $("#contact").offset().top
+			}, 2000);
+		});
+		
+		$("#menuScrollProjects").click(function(){
+			$("html, body").animate({
+				scrollTop: $("#projects").offset().top
+			}, 1500);
+		});
+	</script>
+</body>
+</html>

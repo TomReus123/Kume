@@ -1,0 +1,173 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+	font-size: 20px;
+	background-color: black;
+	height: 100px;
+}
+.menu ul{
+	margin-top: 20px;
+	line-height: 60px;
+}
+.menu li{
+	display: inline;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 15px;
+}
+.menu ul li a:hover{
+	color: #f44444;
+	transition: .4s;
+}
+
+#logo{
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+
+#wrapper
+{
+	margin-top: 100px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+#imageBig
+{
+	display: none;
+}
+
+#imagesDiv
+{
+	margin-top: 50px;
+}
+
+.imageSmall
+{
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 25px;
+}
+
+#footer
+{
+	height: 20px;
+	color: red;
+	width: 90%;
+	bottom: 0;
+	position: absolute;
+}
+
+
+
+@media only screen and (min-width: 745px) {
+	body{
+		font-family: 'Ubuntu', sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	html{
+		padding: 0;
+		margin: 0;
+	}
+
+	.menu{
+		font-size: 20px;
+		color: #fff;
+		height: 100px;
+	}
+	.menu ul{
+		float: right;
+		margin-right: 5%;
+		line-height: 60px;
+	}
+	.menu li{
+		display: inline;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+		margin-right: 15px;
+	}
+	.menu ul li a:hover{
+		color: #f44444;
+		transition: .4s;
+	}
+
+	#logo{
+		height: 100px;
+		margin-left: 5%;
+	}
+
+	#wrapper
+	{
+		margin-top: 5vh;
+		width: 90%;
+		height: calc(75vh - 100px);
+		margin-left: 5%;
+		margin-right: 5%;
+
+	}
+	#imageBig
+	{
+		display: inherit;
+		float: left;
+		width: 50%;
+		height: auto;
+	}
+	#display
+	{
+		width: 100%;
+
+	}
+	#content
+	{
+		width: 40%;
+		float: right;
+	}
+	#imagesDiv
+	{
+		width: 90%;
+		bottom: 60px;
+		position: absolute;
+		margin-right: 5%;
+	}
+
+	#imagesDiv>img
+	{
+		width: 15%;
+		margin-left: 2.2%;
+		margin-right: 2.2%;
+		height: auto;
+		cursor: pointer;
+	}
+	#imagesDiv>img:hover{
+		opacity: 0.5;
+		transition: .5s;
+	}
+
+	#footer
+	{
+		height: 20px;
+		color: red;
+		width: 90%;
+		bottom: 0;
+		position: absolute;
+	}
+}
